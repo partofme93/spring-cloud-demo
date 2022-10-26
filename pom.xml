@@ -11,6 +11,12 @@
   <packaging>pom</packaging>
   <description>Spring Cloud Alibaba Demo</description>
 
+  <modules>
+    <module>goods-service</module>
+    <module>order-service</module>
+    <module>shopcart-service</module>
+  </modules>
+
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -109,4 +115,12 @@
       </plugins>
     </pluginManagement>
   </build>
+
+  <repositories>
+    <repository>
+      <id>central</id>
+      <url>https://maven.aliyun.com/repository/central</url>
+      <name>aliyun</name>
+    </repository>
+  </repositories>
 </project>

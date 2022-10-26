@@ -6,21 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="nacos-provider-demo" />
-        <module name="nacos-consumer-demo" />
+        <module name="goods-service" />
+        <module name="order-service" />
+        <module name="shopcart-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="goods-service-demo" target="1.8" />
+      <module name="nacos-consumer-demo" target="1.8" />
+      <module name="nacos-provider-demo" target="1.8" />
+      <module name="order-service-demo" target="1.8" />
       <module name="service-demo" target="1.8" />
       <module name="service-demo-1" target="1.8" />
+      <module name="shopcart-service-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="nacos-consumer-demo" options="" />
-      <module name="nacos-provider-demo" options="" />
+      <module name="order-service" options="" />
+      <module name="order-service-demo" options="" />
       <module name="service-demo" options="" />
       <module name="service-demo-1" options="" />
+      <module name="shopcart-service" options="-parameters" />
+      <module name="shopcart-service-demo" options="" />
     </option>
   </component>
 </project>
