@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: shopcart-service
+    name: goods-service
   cloud:
     nacos:
       discovery:
